@@ -1,0 +1,95 @@
+:root {
+    --capri: #00BFFF;
+}
+
+#about {
+    background-color: #F0FFF0;
+    min-height: 860px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.me {
+    color: var(--capri);
+}
+
+.about-profile {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-profile img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 3px solid var(--capri);
+    max-width: 100%;
+    height: auto;
+}
+
+.about-desk {
+    width: 100%;
+    max-width: 90%;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 2.5rem;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-name, .about-designation, .about-tech, .about-desk-name, .about-desk-designation, .about-desk-tech {
+    color: var(--capri);
+    font-weight: bold;
+}
+
+.readmore {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    #about {
+        padding: 10px;
+        min-height: 100vh;
+    }
+
+    .about-heading {
+        font-size: 36px;
+    }
+
+    .about-profile img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-desk {
+        font-size: 16px;
+        line-height: 2rem;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .about-intro {
+        display: none;
+    }
+}

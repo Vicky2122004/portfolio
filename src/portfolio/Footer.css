@@ -1,0 +1,78 @@
+
+:root {
+    --capri: #00BFFF;
+}
+
+#footer {
+    height: 250px;
+    width: 100%;
+}
+
+.foot-social-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 40px;
+    gap: 30px;
+}
+
+.foot-facebook {
+    border: 2px solid var(--capri);
+    border-radius: 50%;
+    padding: 4px;
+    color: #0059CF;
+    transition: 0.3s ease-in-out;
+}
+
+.foot-linkedIn {
+    border: 2px solid var(--capri);
+    border-radius: 50%;
+    padding: 4px;
+    color: #0059CF;
+    transition: 0.3s ease-in-out;
+}
+
+.foot-gitHub {
+    border: 2px solid var(--capri);
+    border-radius: 50%;
+    padding: 4px; 
+    color: #100C08;
+    transition: 0.3s ease-in-out;
+}
+
+.foot-instagram {
+    border: 2px solid var(--capri);
+    border-radius: 50%;
+    padding: 4px;   
+    color: #FF00CC;
+    transition: 0.3s ease-in-out;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 40px;
+}
+
+.foot-faq {
+    color: var(--capri);
+}
+
+.foot-projects {
+    color: var(--capri);
+}
+
+.foot-contact {
+    color: var(--capri);
+}
+
+.foot-privacyPolicy {
+    color: var(--capri);
+}
+
+.copy-rights-cont {
+    display: flex;
+    justify-content: center;
+    padding-top: 4.5rem;
+}
