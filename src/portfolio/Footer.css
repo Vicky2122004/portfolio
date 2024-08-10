@@ -1,78 +1,144 @@
-
 :root {
-    --capri: #00BFFF;
+  --capri: #00bfff;
 }
 
 #footer {
-    height: 250px;
-    width: 100%;
+  height: 250px;
+  width: 100%;
 }
 
 .foot-social-cont {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    font-size: 40px;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-size: 40px;
+  gap: 30px;
 }
 
 .foot-facebook {
-    border: 2px solid var(--capri);
-    border-radius: 50%;
-    padding: 4px;
-    color: #0059CF;
-    transition: 0.3s ease-in-out;
+  border: 2px solid var(--capri);
+  border-radius: 50%;
+  padding: 4px;
+  color: #0059cf;
+  transition: 0.3s ease-in-out;
+}
+
+.foot-facebook:hover {
+  background-color: #0059cf;
+  color: whitesmoke;
+  transform: scale(1.1) translateY(-5px);
 }
 
 .foot-linkedIn {
-    border: 2px solid var(--capri);
-    border-radius: 50%;
-    padding: 4px;
-    color: #0059CF;
-    transition: 0.3s ease-in-out;
+  border: 2px solid var(--capri);
+  border-radius: 50%;
+  padding: 4px;
+  color: #0059cf;
+  transition: 0.3s ease-in-out;
+}
+
+.foot-linkedIn:hover {
+  background-color: #0059cf;
+  color: whitesmoke;
+  transform: scale(1.1) translateY(-5px);
 }
 
 .foot-gitHub {
-    border: 2px solid var(--capri);
-    border-radius: 50%;
-    padding: 4px; 
-    color: #100C08;
-    transition: 0.3s ease-in-out;
+  border: 2px solid var(--capri);
+  border-radius: 50%;
+  padding: 4px;
+  color: #100c08;
+  transition: 0.3s ease-in-out;
+}
+
+.foot-gitHub:hover {
+  background-color: #100c08;
+  color: whitesmoke;
+  transform: scale(1.1) translateY(-5px);
 }
 
 .foot-instagram {
-    border: 2px solid var(--capri);
-    border-radius: 50%;
-    padding: 4px;   
-    color: #FF00CC;
-    transition: 0.3s ease-in-out;
+  border: 2px solid var(--capri);
+  border-radius: 50%;
+  padding: 4px;
+  color: #ff00cc;
+  transition: 0.3s ease-in-out;
+}
+
+.foot-instagram:hover {
+  background-color: #ff00cc;
+  color: whitesmoke;
+  transform: scale(1.1) translateY(-5px);
 }
 
 .link {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 40px;
 }
 
-.foot-faq {
-    color: var(--capri);
+.foot-faq a {
+  color: var(--capri);
 }
 
-.foot-projects {
-    color: var(--capri);
+.foot-faq a:hover {
+  border-bottom: 2px solid #0059cf;
+  color: #0059cf;
 }
 
-.foot-contact {
-    color: var(--capri);
+.foot-projects a {
+  color: var(--capri);
 }
 
-.foot-privacyPolicy {
-    color: var(--capri);
+.foot-projects a:hover {
+  border-bottom: 2px solid #0059cf;
+  color: #0059cf;
+}
+
+.foot-contact a {
+  color: var(--capri);
+}
+
+.foot-contact a:hover {
+  border-bottom: 2px solid #0059cf;
+  color: #0059cf;
+}
+
+.foot-privacyPolicy a {
+  color: var(--capri);
+}
+
+.foot-privacyPolicy a:hover {
+  border-bottom: 2px solid #0059cf;
+  color: #0059cf;
 }
 
 .copy-rights-cont {
-    display: flex;
-    justify-content: center;
-    padding-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .foot-faq a {
+    color: var(--capri);
+  }
+  .foot-privacyPolicy a {
+    color: var(--capri);
+  }
+  .foot-projects a {
+    color: var(--capri);
+  }
+  .foot-contact a {
+    color: var(--capri);
+  }
+  .copy-rights-cont {
+    padding-bottom: 2rem;
+  }
 }

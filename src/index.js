@@ -1,21 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Header } from './portfolio/Header';
-import Home from './portfolio/Home';
-import About from './portfolio/About';
-import { Projects } from './portfolio/Projects';
-import Contact from './portfolio/Contact';
-import { Footer } from './portfolio/Footer';
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import Root from "./portfolio/Root";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <Header />
-    <Home />
-    <About />
-    <Projects />
-    <Contact />
-    <Footer />
+    <Root />
   </React.StrictMode>
 );
 

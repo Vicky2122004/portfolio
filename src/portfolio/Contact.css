@@ -1,119 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-    --capri: #00BFFF;
-    --platinum: #E5E4E2;
+  --capri: #00bfff;
+  --platinum: #e5e4e2;
 }
 
-#contact  {
-    height: 860px;
-    background-color: var(--mauve);
-    width: 100%;
+#contact {
+  height: 860px;
+  background-color: #f2f3f4;
+  width: 100%;
 }
 
 .contact-me {
-    color: var(--capri);
+  color: var(--capri);
 }
 
 .contact-head {
-    font-size: 45px;
-    text-align: center;
-    padding: 15px;
+  font-size: 45px;
+  text-align: center;
+  padding: 15px;
 }
 
 .contact-cont {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-    transform: translate(0.5%, 4%);
-    margin: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  transform: translate(0.5%, 4%);
+  margin: 15px;
 }
 
 .form-cont {
-    display: flex;
-    flex-direction: column; /* Stacks the form elements vertically */
-    padding: 20px;          /* Adds some padding around the form */
-    border: 1px solid #ccc; /* Optional: Adds a border to the form */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a 3D effect */
-    background-color: #fff; /* Optional: Sets a background color for the form */
-    border-radius: 8px;     /* Optional: Rounds the corners of the form */
-    height: 600px;
-    width: 600px;
+  display: flex;
+  flex-direction: column; /* Stacks the form elements vertically */
+  padding: 20px; /* Adds some padding around the form */
+  border: 1px solid #ccc; /* Optional: Adds a border to the form */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a 3D effect */
+  background-color: #fff; /* Optional: Sets a background color for the form */
+  border-radius: 8px; /* Optional: Rounds the corners of the form */
+  height: 600px;
+  width: 600px;
 }
 
 .name-type {
-    padding: 12px;
-    margin: 10px 10px 0 10px;
-    font-size: 15px;
-    border: 2px solid var(--capri);
-    border-radius: 5px;
-    color: var(--capri);
+  padding: 12px;
+  margin: 10px 10px 0 10px;
+  font-size: 15px;
+  border: 2px solid var(--capri);
+  border-radius: 5px;
+  color: var(--capri);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
 }
 
 .name-type::placeholder {
-    color: var(--capri);
+  color: var(--capri);
 }
 
 .email-type {
-    padding: 12px;
-    margin: 0 10px 0 10px;
-    font-size: 15px;
-    border: 2px solid var(--capri);
-    border-radius: 5px;
-    color: var(--capri);
+  padding: 12px;
+  margin: 0 10px 0 10px;
+  font-size: 15px;
+  border: 2px solid var(--capri);
+  border-radius: 5px;
+  color: var(--capri);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
 }
 
 .email-type::placeholder {
-    color: var(--capri);
+  color: var(--capri);
 }
 
 .number-type {
-    padding: 12px;
-    margin: 0 10px 0 10px;
-    font-size: 15px;
-    border: 2px solid var(--capri);
-    border-radius: 5px;
-    color: var(--capri);
+  padding: 12px;
+  margin: 0 10px 0 10px;
+  font-size: 15px;
+  border: 2px solid var(--capri);
+  border-radius: 5px;
+  color: var(--capri);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
 }
 
 .number-type::placeholder {
-    color: var(--capri);
+  color: var(--capri);
 }
 
 .text-area {
-    padding: 12px;
-    margin: 0 10px 0 10px;
-    height: 270px;
-    font-size: 15px;
-    border: 2px solid var(--capri);
-    border-radius: 5px;
-    color: var(--capri);
+  padding: 12px;
+  margin: 0 10px 0 10px;
+  height: 270px;
+  font-size: 15px;
+  border: 2px solid var(--capri);
+  border-radius: 5px;
+  color: var(--capri);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
 }
 
 .text-area::placeholder {
-    color: var(--capri);
+  color: var(--capri);
 }
 
 .but-cont {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submit-but {
-    padding: 12px;
-    margin: 0 10px 7px 10px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 35%;
-    color: var(--capri);
-    border: 2px solid var(--capri);
-    border-radius: 5px;
-    letter-spacing: 2px;
-    font-family: "Poppins", sans-serif;
-    transition: 0.3s ease-in-out;
+  padding: 12px;
+  margin: 0 10px 7px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 35%;
+  color: var(--capri);
+  border: 2px solid var(--capri);
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease-in-out;
 }
 
 .submit-but:hover {
-    background-color: var(--capri);
-    color: whitesmoke;
+  background-color: var(--capri);
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-head {
+    font-size: 30px;
+  }
 }
