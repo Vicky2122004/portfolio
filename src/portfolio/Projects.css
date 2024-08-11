@@ -21,7 +21,8 @@
 .goldrate {
   height: 300px;
   width: 250px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  box-shadow: 1px 1px 10px #e5e4e2;
   opacity: 0.9;
   border-radius: 5px;
 }
@@ -36,9 +37,10 @@ div.goldrate img {
 }
 
 .desc {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  /* box-shadow: #e5e4e2; */
   text-align: center;
-  width: 250px;
+  width: 252px;
   height: 50px;
   position: relative;
   right: 1.8px;

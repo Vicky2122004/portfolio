@@ -21,6 +21,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .foot-facebook:hover {
@@ -35,6 +36,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .foot-linkedIn:hover {
@@ -49,6 +51,7 @@
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .foot-gitHub:hover {
@@ -63,6 +66,7 @@
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .foot-instagram:hover {

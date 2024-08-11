@@ -59,6 +59,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .facebook:hover {
@@ -73,6 +74,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .linkedIn:hover {
@@ -87,6 +89,7 @@
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .instagram:hover {
@@ -101,6 +104,7 @@
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 10px #f7f9f2;
 }
 
 .gitHub:hover {
@@ -150,7 +154,7 @@
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: 1px 1px 10px #eeedeb;
 }
 
 .home-down:hover {

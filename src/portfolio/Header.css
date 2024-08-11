@@ -23,7 +23,7 @@ body {
 }
 
 .header-cont {
-  background-color: #242124;
+  background-color: #fefefa;
   opacity: 0.9;
   width: 100vw;
   backdrop-filter: blur(2px) saturate(200%);
@@ -111,7 +111,7 @@ body {
   right: 27rem;
   font-size: 25px;
   top: 1.7rem;
-  color: whitesmoke;
+  color: #555555;
   cursor: pointer;
 }
 
@@ -242,7 +242,7 @@ body {
     overflow-x: hidden;
   }
   .header-cont {
-    background-color: #242124;
+    background-color: #fefefa;
     opacity: 0.9;
     width: 100vw;
     backdrop-filter: blur(2px) saturate(200%);
