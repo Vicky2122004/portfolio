@@ -17,11 +17,11 @@ export const Footer = () => {
             </div>
 
             <div className='foot-instagram-cont'>
-                <a href='#' title='Instagram'><FiInstagram className='foot-instagram'/></a>
+                <a href='https://www.instagram.com/vignesh_t_2004/' target='_blank' title='Instagram'><FiInstagram className='foot-instagram'/></a>
             </div>
 
             <div className='foot-gitHub-cont'>
-                <a href='#' title='GitHub'><FaGithub className='foot-gitHub'/></a>
+                <a href='https://github.com/Vicky2122004' target='_blank' title='GitHub'><FaGithub className='foot-gitHub'/></a>
             </div>
             </section>
 

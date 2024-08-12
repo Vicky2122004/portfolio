@@ -51,13 +51,13 @@ function Home() {
         </div>
 
         <div className="instagram-cont">
-          <a href="#" title="Instagram">
+          <a href="https://www.instagram.com/vignesh_t_2004/" target='_blank' title="Instagram">
             <FiInstagram className="instagram" />
           </a>
         </div>
 
         <div className="gitHub-cont">
-          <a href="#" title="GitHub">
+          <a href="https://github.com/Vicky2122004" target="_blank" title="GitHub">
             <FaGithub className="gitHub" />
           </a>
         </div>

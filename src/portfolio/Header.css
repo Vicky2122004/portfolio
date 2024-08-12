@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Fugaz+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
   margin: 0;
@@ -11,31 +11,36 @@
   --electricBlue: #7df9ff;
   --capri: #00bfff;
   --electricIndigo: #6f00ff;
+  --aliceblue: aliceblue;
 }
 
 #root {
   font-family: "Poppins", sans-serif;
 }
 
+.active {
+  background-color: var(--capri);
+  color: var(--aliceblue);
+}
+
 body {
-  background-color: #fefefa;
   overflow-x: hidden;
 }
 
-.header-cont {
-  background-color: #fefefa;
-  opacity: 0.9;
+#header-cont {
   width: 100vw;
-  backdrop-filter: blur(2px) saturate(200%);
-  -webkit-backdrop-filter: blur(2px) saturate(200%);
+  backdrop-filter: blur(10px) saturate(200%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(193, 195, 202, 0.23);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 3;
 }
 
 .logo {
   padding: 23px;
+  font-family: "Fugaz One", sans-serif;
 }
 
 .logo a {
@@ -58,13 +63,8 @@ body {
   position: absolute;
   top: 1rem;
   gap: 80px;
-  /* border: 2px solid rgba(0, 191, 255, 0.4); */
   padding: 10px;
   width: 35%;
-  /* border-radius: 10px;
-    backdrop-filter: blur(2px) saturate(200%);
-    -webkit-backdrop-filter: blur(2px) saturate(200%);
-    border: 1px solid rgba(255, 255, 255, 0.125); */
 }
 
 .nav-desk li {
@@ -180,27 +180,25 @@ body {
     padding-left: 10px;
   }
   .download-cont {
-    opacity: 0;
+    display: none;
   }
   .downIcon-cont {
     opacity: 1;
     position: absolute;
     right: 32px;
-    top: 21px;
-    border: 2px solid var(--electricBlue);
+    top: 17.5px;
     padding: 10px;
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    color: var(--capri);
   }
   .down-icon {
     position: relative;
     display: grid;
     align-content: center;
-    font-size: 22px;
+    font-size: 30px;
     left: -3px;
-    top: -4px;
+    top: -2px;
   }
   .menu-cont {
     opacity: 1;
@@ -208,13 +206,11 @@ body {
     position: absolute;
     left: 30px;
     top: 19.5px;
-    border: 2px solid var(--electricBlue);
     height: 40px;
     width: 40px;
-    border-radius: 50%;
   }
   .menu-icon {
-    font-size: 22px;
+    font-size: 25px;
     position: relative;
     top: 7.1px;
     left: 7px;
@@ -250,5 +246,13 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.125);
     position: fixed;
     top: 0;
+  }
+  .mode-cont {
+    position: absolute;
+    right: 20%;
+  }
+  .mode-icon {
+    position: static;
+    font-size: 20px;
   }
 }

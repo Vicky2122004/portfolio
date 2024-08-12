@@ -1,0 +1,99 @@
+
+#skills {
+    min-height: 860px;
+    background-color: rgb(250, 245, 245);
+}
+
+.skills-head {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.skill-logo-cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.html-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(193, 195, 202, 0.23);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.html {
+    height: 200px;
+    width: 200px;
+}
+
+.js {
+    height: 150px;
+    width: 150px;
+}
+
+.remotion-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(193, 195, 202, 0.23);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.remotion {
+    height: 210px;
+    width: 210px;
+    position: relative;
+    bottom: 3px;
+}
+
+.overlay {
+    position: absolute; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(5px);
+    color: #f1f1f1; 
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    transition: 0.4s ease-in-out;
+  }
+
+  .html-cont:hover .overlay {
+    opacity: 1;
+  }
+
+  .remotion-cont:hover .overlay {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .skills-head {
+        font-size: 30px;
+    }
+  }
