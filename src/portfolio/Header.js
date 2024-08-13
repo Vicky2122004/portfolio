@@ -203,6 +203,10 @@ export const Header = () => {
         <BsFillMoonStarsFill className="mode-icon" />
       </div>
 
+      <div className="mode-cont-tab">
+        <BsFillMoonStarsFill className="mode-icon-tab" />
+      </div>
+
       <div className="download-cont">
         <button title="Download CV">Download CV</button>
       </div>

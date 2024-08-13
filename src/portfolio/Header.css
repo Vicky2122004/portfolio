@@ -10,7 +10,7 @@
 :root {
   --electricBlue: #7df9ff;
   --capri: #00bfff;
-  --electricIndigo: #6f00ff;
+  --electricIndigo: #8A2BE2;
   --aliceblue: aliceblue;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .nav-desk li a.active {
-  background-color: var(--capri);
+  background-color: var(--electricIndigo);
   color: var(--aliceblue);
 }
 
@@ -74,14 +74,14 @@ body {
 
 .nav-desk li a {
   font-size: 18px;
-  color: var(--capri);
+  color: var(--electricIndigo);
   padding: 10px;
   border-radius: 4px;
   transition: 0.3s ease-in-out;
 }
 
 .nav-desk li a:hover {
-  background-color: var(--capri);
+  background-color: var(--electricIndigo);
   color: aliceblue;
 }
 
@@ -112,7 +112,7 @@ body {
   right: 27rem;
   font-size: 25px;
   top: 1.7rem;
-  color: #555555;
+  color: var(--electricIndigo);
   cursor: pointer;
 }
 
@@ -124,11 +124,11 @@ body {
 }
 
 .download-cont button {
-  border: 2px solid var(--electricBlue);
+  border: 2px solid var(--electricIndigo);
   padding: 12px;
   width: 210px;
   background-color: transparent;
-  color: var(--electricBlue);
+  color: var(--electricIndigo);
   border-radius: 6px;
   font-size: 16px;
   letter-spacing: 1.7px;
@@ -138,7 +138,7 @@ body {
 }
 
 .download-cont button:hover {
-  background-color: var(--electricBlue);
+  background-color: var(--electricIndigo);
   color: whitesmoke;
 }
 
@@ -166,6 +166,9 @@ body {
 .nav-cont-tab {
   display: none;
 }
+.mode-cont-tab {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .nav {
@@ -187,6 +190,9 @@ body {
   }
   .nav li {
     padding-left: 10px;
+  }
+  .nav li a {
+    color: var(--electricIndigo);
   }
   .nav li a.active {
     border-bottom: 2px solid var(--aliceblue);
@@ -212,10 +218,11 @@ body {
     font-size: 30px;
     left: -3px;
     top: -2px;
+    color: var(--electricIndigo);
   }
   .menu-cont {
     opacity: 1;
-    color: var(--capri);
+    color: var(--electricIndigo);
     position: absolute;
     left: 30px;
     top: 19.5px;
@@ -274,9 +281,12 @@ body {
   .nav-cont-tab {
     display: none;
   }
+  .mode-cont-tab {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1325px) and (min-width: 1000px) {  
+@media only screen and (max-width: 1325px) and (min-width: 900px) {  
   #header-cont {
     width: 7%;
     height: 100%;
@@ -323,5 +333,92 @@ body {
   }
   .nav-tab li {
     list-style: none;
+  }
+  .downIcon-cont {
+    opacity: 1;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0.4rem;
+    top: 3rem;
+  }
+  .down-icon {
+    font-size: 30px;
+  }
+  .mode-cont-tab {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    padding-top: 2.5rem;
+    font-size: 23px;
+    color: #6f00ff;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 899px) {
+  #header-cont {
+    width: 100%;
+    height: 65px;
+  }
+  .logo a {
+    display: none;
+  }
+  .nav-desk {
+    display: none;
+  }
+  .download-cont {
+    display: none;
+  }
+  .logo-tab {
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 35px;
+    position: relative;
+    bottom: 35px;
+  }
+  .nav-cont-tab {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 5rem;
+  }
+  .nav-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+    .nav-tab li {
+    list-style: none;
+  }
+  .downIcon-cont {
+    display: flex;
+    justify-content: end;
+    opacity: 1;
+    position: absolute;
+    right: 2rem;
+    top: 0.8rem;
+  }
+  .down-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .mode-cont {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 6rem;
+    top: 1.3rem;
+  }
+  .mode-cont-tab {
+    display: none;
   }
 }

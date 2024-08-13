@@ -99,7 +99,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1325px) {
+@media only screen and (min-width: 900px) and (max-width: 1325px) {
   #about {
     width: 93%;
     float: right;

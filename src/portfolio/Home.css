@@ -1,4 +1,7 @@
 
+:root {
+  --black: rgb(0,0,0,0.77);
+}
 
 #home {
   background-color: #fff;
@@ -16,8 +19,9 @@
 
 .profile-cont img {
   border-radius: 50%;
-  border: 3px solid var(--capri);
+  border: 3px solid var(--electricIndigo);
   padding: 10px;
+  background-color: var(--electricIndigo);
 }
 
 .profile-name {
@@ -29,10 +33,11 @@
 .profile-name h1 {
   letter-spacing: 1.5px;
   font-size: 40px;
+  color: var(--black);
 }
 
 .vignesh {
-  color: var(--capri);
+  color: var(--electricIndigo);
 }
 
 .designation {
@@ -44,7 +49,7 @@
 .designation h1 {
   letter-spacing: 4px;
   text-align: center;
-  color: var(--capri);
+  color: var(--electricIndigo);
 }
 
 .social-media-cont {
@@ -127,20 +132,21 @@
   padding: 14px 10px 0 10px;
   font-size: 20px;
   letter-spacing: 1.5px;
+  color: var(--black);
 }
 
 .p-name {
-  color: var(--capri);
+  color: var(--electricIndigo);
   font-weight: bold;
 }
 
 .p-designation {
-  color: var(--capri);
+  color: var(--electricIndigo);
   font-weight: bold;
 }
 
 .p-react {
-  color: var(--capri);
+  color: var(--electricIndigo);
   font-weight: bold;
 }
 
@@ -154,7 +160,7 @@
 .home-down {
   padding: 12px;
   width: 210px;
-  color: var(--capri);
+  color: var(--electricIndigo);
   border-radius: 6px;
   font-size: 16px;
   letter-spacing: 1.7px;
@@ -168,7 +174,7 @@
 }
 
 .home-down:hover {
-  background-color: var(--capri);
+  background-color: var(--electricIndigo);
   color: #fffafa;
 }
 
@@ -194,7 +200,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1325px) {
+@media only screen and (min-width: 900px) and (max-width: 1325px) {
   #home {
     width: 93%;
     float: right;
