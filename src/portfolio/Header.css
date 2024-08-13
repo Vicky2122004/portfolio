@@ -18,10 +18,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-.active {
+.nav-desk li a.active {
   background-color: var(--capri);
   color: var(--aliceblue);
 }
+
 
 body {
   overflow-x: hidden;
@@ -158,26 +159,38 @@ body {
   opacity: 0;
 }
 
+.logo-tab {
+  display: none;
+}
+
+.nav-cont-tab {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: 55px;
-    background-color: #555555;
     border-radius: 0 0 10px 0;
     width: 20%;
     padding: 20px;
     position: absolute;
     left: 0;
     width: 35%;
-    backdrop-filter: blur(2px) saturate(200%);
-    -webkit-backdrop-filter: blur(2px) saturate(200%);
-    background-color: rgba(17, 25, 40, 0.62);
+    background-color: aliceblue;
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(193, 195, 202, 0.788);
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
   .nav li {
     padding-left: 10px;
+  }
+  .nav li a.active {
+    border-bottom: 2px solid var(--aliceblue);
+    color: var(--aliceblue);
   }
   .download-cont {
     display: none;
@@ -208,6 +221,7 @@ body {
     top: 19.5px;
     height: 40px;
     width: 40px;
+    transition: 0.3s ease-in-out;
   }
   .menu-icon {
     font-size: 25px;
@@ -252,7 +266,62 @@ body {
     right: 20%;
   }
   .mode-icon {
-    position: static;
-    font-size: 20px;
+    display: none;
+  }
+  .logo-tab {
+    display: none;
+  }
+  .nav-cont-tab {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1325px) and (min-width: 1000px) {  
+  #header-cont {
+    width: 7%;
+    height: 100%;
+  }
+  .logo a {
+    display: none;
+  }
+  .nav-desk {
+    display: none;
+  }
+  .download-cont {
+    display: none;
+  }
+  .logo-tab {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .logo-tab a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid var(--capri);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  .nav-cont-tab {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  .nav-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .nav-tab li {
+    list-style: none;
   }
 }

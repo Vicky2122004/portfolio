@@ -17,7 +17,7 @@
 
 .foot-facebook {
   border: 2px solid var(--capri);
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
@@ -32,7 +32,7 @@
 
 .foot-linkedIn {
   border: 2px solid var(--capri);
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
@@ -47,7 +47,7 @@
 
 .foot-gitHub {
   border: 2px solid var(--capri);
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
@@ -62,7 +62,7 @@
 
 .foot-instagram {
   border: 2px solid var(--capri);
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
@@ -144,5 +144,12 @@
   }
   .copy-rights-cont {
     padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1325px) {
+  #footer {
+    width: 93%;
+    float: right;
   }
 }

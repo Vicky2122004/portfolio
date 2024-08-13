@@ -152,10 +152,8 @@
 }
 
 .home-down {
-  border: 2px solid var(--capri);
   padding: 12px;
   width: 210px;
-  background-color: transparent;
   color: var(--capri);
   border-radius: 6px;
   font-size: 16px;
@@ -163,7 +161,10 @@
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
-  box-shadow: 1px 1px 10px #eeedeb;
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(136, 130, 130, 0.23);
+  border: 1px solid rgba(119, 117, 117, 0.125);
 }
 
 .home-down:hover {
@@ -190,5 +191,12 @@
   }
   .profile-name h1 {
     font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1325px) {
+  #home {
+    width: 93%;
+    float: right;
   }
 }
