@@ -1,6 +1,8 @@
 
 :root {
-  --black: rgb(0,0,0,0.77);
+  --black: rgb(0,0,0,0.85);
+  --amethyst: #9966CC;
+  --tangblue: #0070FF;
 }
 
 #home {
@@ -19,9 +21,10 @@
 
 .profile-cont img {
   border-radius: 50%;
-  border: 3px solid var(--electricIndigo);
+  border: 3px solid var(--tangblue);
   padding: 10px;
-  background-color: var(--electricIndigo);
+  background-color: var(--tangblue);
+  box-shadow: 0px 0px 10px var(--tangblue) inset;
 }
 
 .profile-name {
@@ -37,7 +40,7 @@
 }
 
 .vignesh {
-  color: var(--electricIndigo);
+  color: var(--tangblue);
 }
 
 .designation {
@@ -49,7 +52,7 @@
 .designation h1 {
   letter-spacing: 4px;
   text-align: center;
-  color: var(--electricIndigo);
+  color: var(--tangblue);
 }
 
 .social-media-cont {
@@ -62,69 +65,71 @@
 }
 
 .facebook {
-  border-radius: 50%;
+  border-radius: 5px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
-  backdrop-filter: blur(16px) saturate(200%);
-  -webkit-backdrop-filter: blur(16px) saturate(200%);
-  background-color: rgba(193, 195, 202, 0.23);
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F2F3F4; /* B2BEB5*/
+  /* box-shadow: 1px 1px 5px #b2beb5,
+              -1px -1px 5px #b2beb5; */
+  border: 2px solid var(--tangblue);
 }
 
 .facebook:hover {
   background-color: #0059cf;
   color: white;
-  transform: scale(1.2) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
 }
 
 .linkedIn {
-  border-radius: 50%;
+  border-radius: 5px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
-  background-color: #fff;
-  border: 1px solid #E7F0DC;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F2F3F4; /* B2BEB5*/
+  /* box-shadow: 1px 1px 5px #b2beb5,
+              -1px -1px 5px #b2beb5; */
+  border: 2px solid var(--tangblue);
 }
 
 .linkedIn:hover {
   background-color: #0059cf;
   color: white;
-  transform: scale(1.2) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
 }
 
 .instagram {
-  border-radius: 50%;
+  border-radius: 5px;
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
-  background-color: #fff;
-  border: 1px solid #E7F0DC;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F2F3F4; /* B2BEB5*/
+  /* box-shadow: 1px 1px 5px #b2beb5,
+              -1px -1px 5px #b2beb5; */
+  border: 2px solid var(--tangblue);
 }
 
 .instagram:hover {
   background-color: #ff00cc;
   color: whitesmoke;
-  transform: scale(1.2) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
 }
 
 .gitHub {
-  border-radius: 50%;
+  border-radius: 5px;
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
-  background-color: #fff;
-  border: 1px solid #E7F0DC;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F2F3F4; /* B2BEB5*/
+  /* box-shadow: 1px 1px 5px #b2beb5,
+              -1px -1px 5px #b2beb5; */
+  border: 2px solid var(--tangblue);
 }
 
 .gitHub:hover {
   background-color: #100c08;
   color: whitesmoke;
-  transform: scale(1.2) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
 }
 
 .home-intro {
@@ -136,17 +141,17 @@
 }
 
 .p-name {
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   font-weight: bold;
 }
 
 .p-designation {
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   font-weight: bold;
 }
 
 .p-react {
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   font-weight: bold;
 }
 
@@ -160,7 +165,7 @@
 .home-down {
   padding: 12px;
   width: 210px;
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   border-radius: 6px;
   font-size: 16px;
   letter-spacing: 1.7px;
@@ -174,7 +179,7 @@
 }
 
 .home-down:hover {
-  background-color: var(--electricIndigo);
+  background-color: var(--tangblue);
   color: #fffafa;
 }
 

@@ -19,7 +19,7 @@
 }
 
 .nav-desk li a.active {
-  background-color: var(--electricIndigo);
+  background-color: var(--tangblue);
   color: var(--aliceblue);
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .logo a {
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   position: relative;
   left: 7rem;
   font-size: 24px;
@@ -74,14 +74,14 @@ body {
 
 .nav-desk li a {
   font-size: 18px;
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   padding: 10px;
   border-radius: 4px;
   transition: 0.3s ease-in-out;
 }
 
 .nav-desk li a:hover {
-  background-color: var(--electricIndigo);
+  background-color: var(--tangblue);
   color: aliceblue;
 }
 
@@ -104,7 +104,7 @@ body {
 
 .nav li a {
   font-size: 18px;
-  color: var(--capri);
+  color: var(--tangblue);
 }
 
 .mode-cont {
@@ -112,7 +112,7 @@ body {
   right: 27rem;
   font-size: 25px;
   top: 1.7rem;
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   cursor: pointer;
 }
 
@@ -124,11 +124,11 @@ body {
 }
 
 .download-cont button {
-  border: 2px solid var(--electricIndigo);
+  border: 2px solid var(--tangblue);
   padding: 12px;
   width: 210px;
   background-color: transparent;
-  color: var(--electricIndigo);
+  color: var(--tangblue);
   border-radius: 6px;
   font-size: 16px;
   letter-spacing: 1.7px;
@@ -138,7 +138,7 @@ body {
 }
 
 .download-cont button:hover {
-  background-color: var(--electricIndigo);
+  background-color: var(--tangblue);
   color: whitesmoke;
 }
 
@@ -192,7 +192,7 @@ body {
     padding-left: 10px;
   }
   .nav li a {
-    color: var(--electricIndigo);
+    color: var(--tangblue);
   }
   .nav li a.active {
     border-bottom: 2px solid var(--aliceblue);
@@ -218,11 +218,11 @@ body {
     font-size: 30px;
     left: -3px;
     top: -2px;
-    color: var(--electricIndigo);
+    color: var(--tangblue);
   }
   .menu-cont {
     opacity: 1;
-    color: var(--electricIndigo);
+    color: var(--tangblue);
     position: absolute;
     left: 30px;
     top: 19.5px;
@@ -313,7 +313,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 2px solid var(--capri);
+    border: 2px solid var(--tangblue);
     border-radius: 50%;
     height: 50px;
     width: 50px;

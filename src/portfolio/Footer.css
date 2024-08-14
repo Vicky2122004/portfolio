@@ -16,8 +16,8 @@
 }
 
 .foot-facebook {
-  border: 2px solid var(--capri);
-  border-radius: 10px;
+  border: 2px solid var(--tangblue);
+  border-radius: 5px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
@@ -31,8 +31,8 @@
 }
 
 .foot-linkedIn {
-  border: 2px solid var(--capri);
-  border-radius: 10px;
+  border: 2px solid var(--tangblue);
+  border-radius: 5px;
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
@@ -46,8 +46,8 @@
 }
 
 .foot-gitHub {
-  border: 2px solid var(--capri);
-  border-radius: 10px;
+  border: 2px solid var(--tangblue);
+  border-radius: 5px;
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
@@ -61,8 +61,8 @@
 }
 
 .foot-instagram {
-  border: 2px solid var(--capri);
-  border-radius: 10px;
+  border: 2px solid var(--tangblue);
+  border-radius: 5px;
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
@@ -83,7 +83,7 @@
 }
 
 .foot-faq a {
-  color: var(--capri);
+  color: var(--tangblue);
 }
 
 .foot-faq a:hover {
@@ -92,7 +92,7 @@
 }
 
 .foot-projects a {
-  color: var(--capri);
+  color: var(--tangblue);
 }
 
 .foot-projects a:hover {
@@ -101,7 +101,7 @@
 }
 
 .foot-contact a {
-  color: var(--capri);
+  color: var(--tangblue);
 }
 
 .foot-contact a:hover {
@@ -110,7 +110,7 @@
 }
 
 .foot-privacyPolicy a {
-  color: var(--capri);
+  color: var(--tangblue);
 }
 
 .foot-privacyPolicy a:hover {
@@ -122,6 +122,7 @@
   display: flex;
   justify-content: center;
   padding-top: 4.5rem;
+  color: var(--black);
 }
 
 @media only screen and (max-width: 600px) {
@@ -131,16 +132,16 @@
     gap: 15px;
   }
   .foot-faq a {
-    color: var(--capri);
+    color: var(--tangblue);
   }
   .foot-privacyPolicy a {
-    color: var(--capri);
+    color: var(--tangblue);
   }
   .foot-projects a {
-    color: var(--capri);
+    color: var(--tangblue);
   }
   .foot-contact a {
-    color: var(--capri);
+    color: var(--tangblue);
   }
   .copy-rights-cont {
     padding-bottom: 2rem;
