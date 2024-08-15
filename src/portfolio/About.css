@@ -3,7 +3,7 @@
 }
 
 #about {
-  background-color: #f5f5f5;
+  background-color: var(--bg-color);
   min-height: 860px;
   padding: 20px;
   display: flex;
@@ -16,7 +16,7 @@
   text-align: center;
   margin-bottom: 20px;
   letter-spacing: 2px;
-  color: var(--black);
+  color: var(--text-color);
 }
 
 .me {
@@ -48,7 +48,7 @@
   line-height: 2.5rem;
   padding: 20px;
   box-sizing: border-box;
-  color: var(--black);
+  color: var(--text-color);
 }
 
 .about-name,

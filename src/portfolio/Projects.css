@@ -1,6 +1,6 @@
 #projects {
   height: 860px;
-  background-color: #F5F5F5;
+  background-color: var(--bg-color);
 }
 
 .projects-cont {
@@ -9,7 +9,7 @@
   font-size: 45px;
   padding: 20px;
   letter-spacing: 2px;
-  color: var(--black);
+  color: var(--text-color);
 }
 
 .project-cont {

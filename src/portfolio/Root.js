@@ -6,11 +6,18 @@ import { Projects } from "./Projects";
 import Contact from "./Contact";
 import { Footer } from "./Footer";
 import Skills from "./Skills";
+import './theme.css'
 
 function Root() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
-    <div>
-      <Header />
+    <div className={theme === "light" ? "light-mode" : "dark-mode"}>
+      <Header toggleTheme={toggleTheme} />
       <Home />
       <About />
       <Skills />

@@ -10,7 +10,8 @@ import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 import { FaBriefcase } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";
 
-export const Header = () => {
+export const Header = (props) => {
+  const {toggleTheme} = props
   const [menu, setMenu] = useState(false);
 
   const [activeLink, setActiveLink] = useState("#home");
@@ -200,11 +201,11 @@ export const Header = () => {
     </div>
 
       <div className="mode-cont">
-        <BsFillMoonStarsFill className="mode-icon" />
+        <BsFillMoonStarsFill className="mode-icon" onClick={toggleTheme} />
       </div>
 
       <div className="mode-cont-tab">
-        <BsFillMoonStarsFill className="mode-icon-tab" />
+        <BsFillMoonStarsFill className="mode-icon-tab" onClick={toggleTheme} />
       </div>
 
       <div className="download-cont">

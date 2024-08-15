@@ -1,0 +1,18 @@
+
+.light-mode {
+    --bg-color: #F5F5F5;
+    --text-color: black;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .dark-mode {
+    --bg-color: black;
+    --text-color: white;
+    transition: 0.3s ease-in-out;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  

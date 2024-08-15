@@ -1,21 +1,19 @@
 
 :root {
   --black: rgb(0,0,0,0.85);
-  --amethyst: #9966CC;
   --tangblue: #0070FF;
 }
 
 #home {
-  background-color: #fff;
+  background-color: var(--bg-color);
   position: relative;
   padding-top: 80px;
+  min-height: 910px;
 }
 
 .profile-cont {
   display: flex;
   justify-content: center;
-  height: 100%;
-  width: 100%;
   padding-top: 30px;
 }
 
@@ -30,13 +28,13 @@
 .profile-name {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .profile-name h1 {
   letter-spacing: 1.5px;
   font-size: 40px;
-  color: var(--black);
+  color: var(--text-color);
 }
 
 .vignesh {
@@ -58,10 +56,8 @@
 .social-media-cont {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   font-size: 40px;
   gap: 30px;
-  padding-top: 10px;
 }
 
 .facebook {
@@ -69,7 +65,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
-  background-color: #F2F3F4; /* B2BEB5*/
+  background-color: transparent; /* B2BEB5*/
   /* box-shadow: 1px 1px 5px #b2beb5,
               -1px -1px 5px #b2beb5; */
   border: 2px solid var(--tangblue);
@@ -86,7 +82,7 @@
   padding: 4px;
   color: #0059cf;
   transition: 0.3s ease-in-out;
-  background-color: #F2F3F4; /* B2BEB5*/
+  background-color: transparent; /* B2BEB5*/
   /* box-shadow: 1px 1px 5px #b2beb5,
               -1px -1px 5px #b2beb5; */
   border: 2px solid var(--tangblue);
@@ -103,7 +99,7 @@
   padding: 4px;
   color: #ff00cc;
   transition: 0.3s ease-in-out;
-  background-color: #F2F3F4; /* B2BEB5*/
+  background-color: transparent; /* B2BEB5*/
   /* box-shadow: 1px 1px 5px #b2beb5,
               -1px -1px 5px #b2beb5; */
   border: 2px solid var(--tangblue);
@@ -120,7 +116,7 @@
   padding: 4px;
   color: #100c08;
   transition: 0.3s ease-in-out;
-  background-color: #F2F3F4; /* B2BEB5*/
+  background-color: transparent; /* B2BEB5*/
   /* box-shadow: 1px 1px 5px #b2beb5,
               -1px -1px 5px #b2beb5; */
   border: 2px solid var(--tangblue);
@@ -134,10 +130,11 @@
 
 .home-intro {
   text-align: center;
-  padding: 14px 10px 0 10px;
+  padding: 15px 10px 15px 10px;
   font-size: 20px;
   letter-spacing: 1.5px;
-  color: var(--black);
+  color: var(--text-color);
+
 }
 
 .p-name {
@@ -158,8 +155,7 @@
 .home-down-cont {
   display: flex;
   justify-content: center;
-  margin: 10px;
-  padding-bottom: 70px;
+  margin: 15px;
 }
 
 .home-down {
