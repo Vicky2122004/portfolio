@@ -17,7 +17,7 @@ function Root() {
 
   return (
     <div className={theme === "light" ? "light-mode" : "dark-mode"}>
-      <Header toggleTheme={toggleTheme} />
+      <Header toggleTheme={toggleTheme} theme={theme} />
       <Home />
       <About />
       <Skills />

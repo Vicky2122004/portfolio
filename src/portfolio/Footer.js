@@ -9,15 +9,15 @@ export const Footer = () => {
         <section id="footer">
             <section className="foot-social-cont">
             <div className='foot-facebook-cont'>
-                <a href='#' title='Facebook'><FaFacebook className='foot-facebook'/></a>
+                <a href="https://www.facebook.com/people/Vignesh-T/pfbid0BkLuuUPxLgYvrYA5MtFoBQ8k39tAnNPxjdmakrvoL9HKgen6xnrYv8ymrQzBY1Jpl/" target="_blank" title='Facebook'><FaFacebook className='foot-facebook'/></a>
             </div>
 
             <div className='foot-linkedIn-cont'>
-                <a href='#' title='LinkedIn'><FaLinkedin className='foot-linkedIn'/></a>
+                <a href="https://www.linkedin.com/in/vignesh-t-470a63257/" target="_blank" title='LinkedIn'><FaLinkedin className='foot-linkedIn'/></a>
             </div>
 
             <div className='foot-instagram-cont'>
-                <a href='https://www.instagram.com/vignesh_t_2004/' target='_blank' title='Instagram'><FiInstagram className='foot-instagram'/></a>
+                <a href="https://www.instagram.com/vignesh_t_2004/" target='_blank' title='Instagram'><FiInstagram className='foot-instagram'/></a>
             </div>
 
             <div className='foot-gitHub-cont'>

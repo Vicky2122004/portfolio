@@ -39,13 +39,13 @@ function Home() {
 
       <section className="social-media-cont">
         <div className="facebook-cont">
-          <a href="#" title="Facebook">
+          <a href="https://www.facebook.com/people/Vignesh-T/pfbid0BkLuuUPxLgYvrYA5MtFoBQ8k39tAnNPxjdmakrvoL9HKgen6xnrYv8ymrQzBY1Jpl/" target="_blank" title="Facebook">
             <FaFacebook className="facebook" />
           </a>
         </div>
 
         <div className="linkedIn-cont">
-          <a href="#" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/vignesh-t-470a63257/" target="_blank" title="LinkedIn">
             <FaLinkedin className="linkedIn" />
           </a>
         </div>

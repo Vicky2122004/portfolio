@@ -123,6 +123,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #footer {
+    min-height: 380px;
+    background-color: var(--bg-color);
+  }
   .link {
     flex-direction: column;
     align-items: center;

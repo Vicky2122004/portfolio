@@ -28,8 +28,8 @@ body {
 
 #header-cont {
   width: 100vw;
-  backdrop-filter: blur(10px) saturate(200%);
-  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
   background-color: var(--bg-color);
   border: 1px solid rgba(255, 255, 255, 0.125);
   position: fixed;
@@ -180,10 +180,9 @@ body {
     position: absolute;
     left: 0;
     width: 35%;
-    background-color: aliceblue;
+    background-color: var(--bg-color);
     backdrop-filter: blur(10px) saturate(200%);
     -webkit-backdrop-filter: blur(10px) saturate(200%);
-    background-color: rgba(193, 195, 202, 0.788);
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
   .nav li {
@@ -202,8 +201,8 @@ body {
   .downIcon-cont {
     opacity: 1;
     position: absolute;
-    right: 32px;
-    top: 17.5px;
+    right: 30px;
+    top: 11px;
     padding: 10px;
     border-radius: 50%;
     height: 40px;
@@ -214,8 +213,6 @@ body {
     display: grid;
     align-content: center;
     font-size: 30px;
-    left: -3px;
-    top: -2px;
     color: var(--tangblue);
   }
   .menu-cont {
@@ -269,9 +266,7 @@ body {
   .mode-cont {
     position: absolute;
     right: 20%;
-  }
-  .mode-icon {
-    display: none;
+    font-size: 20px;
   }
   .logo-tab {
     display: none;
@@ -311,10 +306,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 2px solid var(--tangblue);
+    border: 2px solid rgb(21, 21, 230);
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    color: var(--tangblue);
   }
   .nav-cont-tab {
     display: flex;
@@ -332,6 +328,9 @@ body {
   .nav-tab li {
     list-style: none;
   }
+  .nav-tab li a {
+    color: var(--tangblue);
+  }
   .downIcon-cont {
     opacity: 1;
     z-index: 3;
@@ -343,6 +342,7 @@ body {
   }
   .down-icon {
     font-size: 30px;
+    color: var(--tangblue);
   }
   .mode-cont-tab {
     opacity: 1;
@@ -351,9 +351,43 @@ body {
     z-index: 3;
     padding-top: 2.5rem;
     font-size: 23px;
-    color: #6f00ff;
+    color: var(--tangblue);
   }
 }
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  to {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  @keyframes fadeInLeft {
+  from {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  to {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  .logo, .mode-cont, .download-cont, .nav-desk {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
 
 @media only screen and (min-width: 601px) and (max-width: 899px) {
   #header-cont {
@@ -379,6 +413,9 @@ body {
     position: relative;
     bottom: 35px;
   }
+  .logo-tab a {
+    color: var(--tangblue);
+  }
   .nav-cont-tab {
     display: flex;
     justify-content: center;
@@ -395,6 +432,9 @@ body {
     .nav-tab li {
     list-style: none;
   }
+  .nav-tab li a {
+    color: var(--tangblue);
+  }
   .downIcon-cont {
     display: flex;
     justify-content: end;
@@ -407,6 +447,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 30px;
+    color: var(--tangblue);
   }
   .mode-cont {
     font-size: 20px;

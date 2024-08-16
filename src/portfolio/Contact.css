@@ -35,9 +35,9 @@
   display: flex;
   flex-direction: column; /* Stacks the form elements vertically */
   padding: 20px; /* Adds some padding around the form */
-  border: 1px solid #ccc; /* Optional: Adds a border to the form */
+  border: 1px solid #e2dada; /* Optional: Adds a border to the form */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a 3D effect */
-  background-color: var(--bg-color); /* Optional: Sets a background color for the form */
+  background-color: transparent; /* Optional: Sets a background color for the form */
   border-radius: 8px; /* Optional: Rounds the corners of the form */
   height: 600px;
   width: 600px;
@@ -52,7 +52,7 @@
   color: var(--tangblue);
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 .name-type::placeholder {
@@ -68,7 +68,7 @@
   color: var(--tangblue);
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 .email-type::placeholder {
@@ -84,7 +84,7 @@
   color: var(--tangblue);
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 .number-type::placeholder {
@@ -101,7 +101,7 @@
   color: var(--tangblue);
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 .text-area::placeholder {

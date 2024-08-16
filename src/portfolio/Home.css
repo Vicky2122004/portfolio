@@ -180,12 +180,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #home {
+    padding-top: 110px;
+  }
   .profile-cont img {
     width: 300px;
     height: 300px;
-  }
-  #home {
-    position: relative;
   }
   .home-intro {
     font-size: 16px;
@@ -198,6 +198,15 @@
   }
   .profile-name h1 {
     font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 601px) {
+  #home {
+    height: 960px;
+  }
+  .home-down-cont {
+    padding-bottom: 30px;
   }
 }
 
