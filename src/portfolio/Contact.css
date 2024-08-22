@@ -36,11 +36,14 @@
   flex-direction: column; /* Stacks the form elements vertically */
   padding: 20px; /* Adds some padding around the form */
   border: 1px solid #e2dada; /* Optional: Adds a border to the form */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a 3D effect */
-  background-color: transparent; /* Optional: Sets a background color for the form */
+  box-shadow: 0px 0px 10px rgba(190, 187, 187, 0.952);/* Optional: Adds a shadow for a 3D effect */
   border-radius: 8px; /* Optional: Rounds the corners of the form */
   height: 600px;
   width: 600px;
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(193, 195, 202, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.105);
 }
 
 .name-type {
@@ -132,6 +135,39 @@
   background-color: var(--tangblue);
   color: whitesmoke;
 }
+
+@-webkit-keyframes fadeInDown {
+  from {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  to {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  @keyframes fadeInDown {
+  from {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  to {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  .but-cont, .contact-head, .email-type, .name-type, .form-cont, .submit-but, .text-area, .number-type, .contact-cont {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
 
 @media only screen and (max-width: 600px) {
   .contact-head {

@@ -22,7 +22,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/css.png'
-                alt='html'
+                alt='css'
                 className='html'
                 />
                 <div className='overlay'>
@@ -32,7 +32,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/js.png'
-                alt='html'
+                alt='js'
                 className='js'
                 />
                  <div className='overlay'>
@@ -42,7 +42,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/react.png'
-                alt='html'
+                alt='react'
                 className='js'
                 />
                  <div className='overlay'>
@@ -52,7 +52,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/node.png'
-                alt='html'
+                alt='node'
                 className='js'
                 />
                  <div className='overlay'>
@@ -62,7 +62,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/mongoDB.png'
-                alt='html'
+                alt='mongoDB'
                 className='js'
                 />
                  <div className='overlay'>
@@ -72,7 +72,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/tailwind.png'
-                alt='html'
+                alt='tailwind'
                 className='js'
                 />
                  <div className='overlay'>
@@ -82,7 +82,7 @@ function Skills() {
             <div className='html-cont'>
                 <img 
                 src='projects/bootstrap.png'
-                alt='html'
+                alt='bootstrap'
                 className='js'
                 />
                  <div className='overlay'>
@@ -92,11 +92,21 @@ function Skills() {
             <div className='remotion-cont'>
                 <img 
                 src='projects/remotion-3d.png'
-                alt='html'
+                alt='remotion'
                 className='remotion'
                 />
                  <div className='overlay'>
                     <p>Remotion</p>
+                </div>
+            </div>
+            <div className='swift-cont'>
+                <img 
+                src='projects/swift.png'
+                alt='swift'
+                className='remotion'
+                />
+                 <div className='overlay'>
+                    <p>Swift</p>
                 </div>
             </div>
         </section>
