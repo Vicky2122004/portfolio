@@ -29,7 +29,7 @@
   -webkit-backdrop-filter: blur(16px) saturate(200%);
   background-color: rgba(193, 195, 202, 0.23);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: 0px 0px 10px rgba(190, 187, 187, 0.952);
+  box-shadow: var(--box-shadow);
 }
 
 div.goldrate img {

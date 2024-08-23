@@ -2,12 +2,14 @@
 .light-mode {
     --bg-color: rgba(241, 237, 237, 0.918);
     --text-color: rgba(0, 0, 0, 0.877);
+    --box-shadow:  0px 0px 10px rgba(190, 187, 187, 0.952);
     transition: 0.3s ease-in-out;
   }
   
   .dark-mode {
     --bg-color: rgba(17, 16, 16, 0.925);
     --text-color: rgba(241, 237, 237, 0.918);
+    --box-shadow:  0px 0px 10px rgba(41, 39, 39, 0.952);
     transition: 0.3s ease-in-out;
   }
   
